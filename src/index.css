@@ -5,9 +5,68 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  padding:0;
+  margin: 0;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+.app{
+  margin:30px
+}
+
+
+.heading{
+  text-align: center;
+  font-size: 17px;
+  padding:5px 0px
+}
+
+.content{
+  margin-top:20px
+}
+
+.joke{
+  text-align: center;
+  font-size: 12px;
+}
+
+.punch-line{
+  text-align: center;
+  font-size: 16px;
+  margin:5px 0px
+}
+
+.another{
+  background-color: black;
+  color:white;
+  font-size: 10px;
+  padding:7px 10px;
+  border:none;
+  
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+}
+
+.tell-me{
+  background-color: lightskyblue;
+  color:white;
+  font-size: 10px;
+  padding:7px 10px;
+  border:none;
 }
